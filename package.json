@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -17,6 +18,15 @@
     "sequelize": "^6.28.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.20"
-  }
+    "nodemon": "^2.0.20",
+    "sequelize-cli": "^6.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asmaaitsadoune2022/Kata_project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/asmaaitsadoune2022/Kata_project/issues"
+  },
+  "homepage": "https://github.com/asmaaitsadoune2022/Kata_project#readme"
 }
